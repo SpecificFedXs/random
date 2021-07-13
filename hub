@@ -28,14 +28,14 @@ local CreditsButton_2 = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 CreditsFrame.Name = "CreditsFrame"
 CreditsFrame.Parent = ScreenGui
 CreditsFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 CreditsFrame.BorderSizePixel = 0
-CreditsFrame.Position = UDim2.new(0.654909432, 0, 0.171539962, 0)
+CreditsFrame.Position = UDim2.new(0, 686, 0, 88)
 CreditsFrame.Size = UDim2.new(0, 216, 0, 336)
 CreditsFrame.Visible = false
 
@@ -66,9 +66,8 @@ Close.TextSize = 17.000
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.393708289, 0, 0.171539962, 0)
+Frame.Position = UDim2.new(0, 412, 0, 88)
 Frame.Size = UDim2.new(0, 222, 0, 336)
-Frame.Active = true
 
 UICorner_2.CornerRadius = UDim.new(0, 4)
 UICorner_2.Parent = Frame
@@ -263,7 +262,7 @@ CreditsButton_2.TextSize = 17.000
 
 -- Scripts:
 
-local function YWGKL_fake_script() -- CreditsFrame.SmoothDrag 
+local function EPFMZ_fake_script() -- CreditsFrame.SmoothDrag 
 	local script = Instance.new('LocalScript', CreditsFrame)
 
 	local Drag = script.Parent.Parent.CreditsFrame
@@ -306,8 +305,8 @@ local function YWGKL_fake_script() -- CreditsFrame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(YWGKL_fake_script)()
-local function KKUZ_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(EPFMZ_fake_script)()
+local function VFCHPTP_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	function funktio()
@@ -320,8 +319,8 @@ local function KKUZ_fake_script() -- TextLabel.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(KKUZ_fake_script)()
-local function HQJZZB_fake_script() -- Close.LocalScript 
+coroutine.wrap(VFCHPTP_fake_script)()
+local function AUTFQ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function funktio()
@@ -334,16 +333,16 @@ local function HQJZZB_fake_script() -- Close.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(HQJZZB_fake_script)()
-local function JFPO_fake_script() -- Close.sadasds 
+coroutine.wrap(AUTFQ_fake_script)()
+local function CDBFZMM_fake_script() -- Close.sadasds 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
-coroutine.wrap(JFPO_fake_script)()
-local function GXAKM_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(CDBFZMM_fake_script)()
+local function IGJL_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	function funktio()
@@ -356,8 +355,8 @@ local function GXAKM_fake_script() -- TextLabel_2.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(GXAKM_fake_script)()
-local function YORSYD_fake_script() -- Nullware.LocalScript 
+coroutine.wrap(IGJL_fake_script)()
+local function VPNAN_fake_script() -- Nullware.LocalScript 
 	local script = Instance.new('LocalScript', Nullware)
 
 	function funktio()
@@ -370,8 +369,8 @@ local function YORSYD_fake_script() -- Nullware.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(YORSYD_fake_script)()
-local function BLNKTJ_fake_script() -- CitrusHub.LocalScript 
+coroutine.wrap(VPNAN_fake_script)()
+local function YVHXU_fake_script() -- CitrusHub.LocalScript 
 	local script = Instance.new('LocalScript', CitrusHub)
 
 	function funktio()
@@ -384,8 +383,8 @@ local function BLNKTJ_fake_script() -- CitrusHub.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(BLNKTJ_fake_script)()
-local function FJQX_fake_script() -- Panel.LocalScript 
+coroutine.wrap(YVHXU_fake_script)()
+local function DHEF_fake_script() -- Panel.LocalScript 
 	local script = Instance.new('LocalScript', Panel)
 
 	function funktio()
@@ -398,8 +397,8 @@ local function FJQX_fake_script() -- Panel.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(FJQX_fake_script)()
-local function LOPN_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(DHEF_fake_script)()
+local function KPJYC_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	function funktio()
@@ -412,16 +411,16 @@ local function LOPN_fake_script() -- CreditsButton.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(LOPN_fake_script)()
-local function HBLSB_fake_script() -- CreditsButton.LocalScript 
+coroutine.wrap(KPJYC_fake_script)()
+local function XWSG_fake_script() -- CreditsButton.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.CreditsFrame.Visible = true
 	end)
 end
-coroutine.wrap(HBLSB_fake_script)()
-local function RODEVXP_fake_script() -- Frame.LocalScript 
+coroutine.wrap(XWSG_fake_script)()
+local function WTKVKV_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function funktio()
@@ -434,8 +433,8 @@ local function RODEVXP_fake_script() -- Frame.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(RODEVXP_fake_script)()
-local function FYTWVK_fake_script() -- Frame.SmoothDrag 
+coroutine.wrap(WTKVKV_fake_script)()
+local function EWNMUCZ_fake_script() -- Frame.SmoothDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent.Parent.Frame
@@ -478,8 +477,8 @@ local function FYTWVK_fake_script() -- Frame.SmoothDrag
 		end)
 	
 end
-coroutine.wrap(FYTWVK_fake_script)()
-local function TMSD_fake_script() -- chevron_left.LocalScript 
+coroutine.wrap(EWNMUCZ_fake_script)()
+local function NMDILO_fake_script() -- chevron_left.LocalScript 
 	local script = Instance.new('LocalScript', chevron_left)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -487,8 +486,8 @@ local function TMSD_fake_script() -- chevron_left.LocalScript
 		script.Parent.Parent.Page2.Visible = false
 	end)
 end
-coroutine.wrap(TMSD_fake_script)()
-local function GHSA_fake_script() -- chevron_right.LocalScript 
+coroutine.wrap(NMDILO_fake_script)()
+local function ROYRIL_fake_script() -- chevron_right.LocalScript 
 	local script = Instance.new('LocalScript', chevron_right)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -496,8 +495,8 @@ local function GHSA_fake_script() -- chevron_right.LocalScript
 		script.Parent.Parent.Page2.Visible = true
 	end)
 end
-coroutine.wrap(GHSA_fake_script)()
-local function OCZVB_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(ROYRIL_fake_script)()
+local function ZNMBWGM_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 
 	function funktio()
@@ -510,8 +509,8 @@ local function OCZVB_fake_script() -- TextLabel_3.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(OCZVB_fake_script)()
-local function ZCRZWU_fake_script() -- IYButton.LocalScript 
+coroutine.wrap(ZNMBWGM_fake_script)()
+local function JTXL_fake_script() -- IYButton.LocalScript 
 	local script = Instance.new('LocalScript', IYButton)
 
 	function funktio()
@@ -524,8 +523,8 @@ local function ZCRZWU_fake_script() -- IYButton.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(ZCRZWU_fake_script)()
-local function AJEYIA_fake_script() -- CMDX.LocalScript 
+coroutine.wrap(JTXL_fake_script)()
+local function EWTWVM_fake_script() -- CMDX.LocalScript 
 	local script = Instance.new('LocalScript', CMDX)
 
 	function funktio()
@@ -538,8 +537,8 @@ local function AJEYIA_fake_script() -- CMDX.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(AJEYIA_fake_script)()
-local function ZIWDH_fake_script() -- Reviz.LocalScript 
+coroutine.wrap(EWTWVM_fake_script)()
+local function RVSTC_fake_script() -- Reviz.LocalScript 
 	local script = Instance.new('LocalScript', Reviz)
 
 	function funktio()
@@ -552,8 +551,8 @@ local function ZIWDH_fake_script() -- Reviz.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(ZIWDH_fake_script)()
-local function MMODS_fake_script() -- Fate.LocalScript 
+coroutine.wrap(RVSTC_fake_script)()
+local function URFPVGT_fake_script() -- Fate.LocalScript 
 	local script = Instance.new('LocalScript', Fate)
 
 	function funktio()
@@ -566,8 +565,8 @@ local function MMODS_fake_script() -- Fate.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(MMODS_fake_script)()
-local function VFZIC_fake_script() -- Panel_2.LocalScript 
+coroutine.wrap(URFPVGT_fake_script)()
+local function WARRGA_fake_script() -- Panel_2.LocalScript 
 	local script = Instance.new('LocalScript', Panel_2)
 
 	function funktio()
@@ -580,8 +579,8 @@ local function VFZIC_fake_script() -- Panel_2.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(VFZIC_fake_script)()
-local function RTSCT_fake_script() -- CreditsButton_2.LocalScript 
+coroutine.wrap(WARRGA_fake_script)()
+local function UFMEGPB_fake_script() -- CreditsButton_2.LocalScript 
 	local script = Instance.new('LocalScript', CreditsButton_2)
 
 	function funktio()
@@ -594,12 +593,12 @@ local function RTSCT_fake_script() -- CreditsButton_2.LocalScript
 	
 	funktio()
 end
-coroutine.wrap(RTSCT_fake_script)()
-local function ULDCDEE_fake_script() -- CreditsButton_2.sc 
+coroutine.wrap(UFMEGPB_fake_script)()
+local function RVDCPD_fake_script() -- CreditsButton_2.sc 
 	local script = Instance.new('LocalScript', CreditsButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.CreditsFrame.Visible = true
 	end)
 end
-coroutine.wrap(ULDCDEE_fake_script)()
+coroutine.wrap(RVDCPD_fake_script)()
