@@ -339,7 +339,7 @@ local function JFPO_fake_script() -- Close.sadasds
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.CreditsFrame:Destroy()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
 	end)
 end
 coroutine.wrap(JFPO_fake_script)()
